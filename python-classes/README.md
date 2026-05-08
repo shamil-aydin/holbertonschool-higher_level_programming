@@ -1,2 +1,1 @@
-# Python Classes
-0-square.py: An empty class Square that defines a square
+Project on Python exceptions: safe_print_list

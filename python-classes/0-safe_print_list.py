@@ -1,23 +1,26 @@
 #!/usr/bin/python3
-"""Module for safe list printing."""
+"""
+Module that contains a function that prints x elements of a list.
+"""
 
 
 def safe_print_list(my_list=[], x=0):
-    """Print x elements of a list safely.
+    """
+    Prints x elements of a list.
 
     Args:
-        my_list (list): The list to print from.
-        x (int): Number of elements to print.
+        my_list: The list to print elements from.
+        x: The number of elements to print.
 
     Returns:
-        int: The real number of elements printed.
+        The real number of elements printed.
     """
     count = 0
     for i in range(x):
         try:
-            print(my_list[i], end="")
+            print("{}".format(my_list[i]), end="")
             count += 1
         except IndexError:
             break
-    print()
+    print("")
     return count
