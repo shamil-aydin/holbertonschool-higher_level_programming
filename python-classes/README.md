@@ -1,1 +1,1 @@
-Function that prints x elements of a list using try/except.
+function that prints elements of a listing
