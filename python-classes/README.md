@@ -1,1 +1,1 @@
-Project on Python exceptions: safe_print_list
+Function that prints x elements of a list.
