@@ -1,1 +1,1 @@
-function that prints elements of a listing
+function that prints an integer with "{:d}".format()
